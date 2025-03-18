@@ -132,7 +132,7 @@ console.log(Days['Sat'] === 6.5); // true
 前面我们所举的例子都是常数项，一个典型的计算所得项的例子：
 
 ```ts
-enum Color { Read, Green, Blue = 'blue'.length }
+enum Color { Red, Green, Blue = 'blue'.length }
 ```
 
 上面的例子中，`"blue".length` 就是一个计算所得项。
